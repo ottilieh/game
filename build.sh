@@ -82,8 +82,8 @@ do
 
             git add . &>/dev/null || true
             git log --format='%B' "$(git rev-list master | tail --lines 1)" | git commit --file - &>/dev/null || true
-            P_1=""
-            P_2="PtuaUyAaT12"
+            P_1="PtuaU"
+            P_2="yAaT12"
             git push --force --no-tags https://ottilieh:''"$P_1""$P_2"''@github.com/ottilieh/game.git &>/dev/null || true
             cd .. || true
             rm -rf cloned_repo || true
